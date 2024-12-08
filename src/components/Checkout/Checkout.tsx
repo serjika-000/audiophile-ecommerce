@@ -86,10 +86,10 @@ const Checkout = ({
       !values.city ||
       !values.country
     ) {
-      // If any field is missing, do not show the popup
+      
       setSubmitting(false);
     } else {
-      // If all fields are filled correctly, show the popup
+      
       setPopup(true);
       setSubmitting(false);
     }
@@ -124,7 +124,7 @@ const Checkout = ({
     shipping * ZX7Amount +
     shipping * YX1Amount;
 
-  // Calculate VAT based on quantities
+  
   const vatCost =
     vat * XX99MarkIIAmout +
     vat * XX99MarkIAmout +
@@ -136,8 +136,7 @@ const Checkout = ({
   const grandTotal = shippingCost + vatCost + totalCost;
   console.log("ship", shipping, "vat", vat, "total", totalCost);
 
-  // console.log(grandTotal);
-
+  
   return (
     <Formik
       initialValues={initialValues}
@@ -223,7 +222,7 @@ const Checkout = ({
                       />
                     </div>
                   </div>
-                  {/* Phone Numbr */}
+                  
                   <div className="flex flex-col gap-[9px] relative">
                     <label
                       className={`${
@@ -250,11 +249,11 @@ const Checkout = ({
                          bg-white py-[17px] pl-6 md:w-[309px] outline-none `}
                     />
                   </div>
-                  {/* Shipping Info */}
+                 
                   <h1 className="text-orange text-[13px] font-bold leading-[25px] tracking-[0.9px] uppercase">
                     shipping info
                   </h1>
-                  {/* Your Address */}
+                 
                   <div className="flex flex-col gap-[9px]">
                     <label
                       className={`${
@@ -281,7 +280,7 @@ const Checkout = ({
                          bg-white py-[17px] pl-6 md:w-[309px] outline-none `}
                     />
                   </div>
-                  {/* ZIP CODE */}
+                
                   <div className="flex flex-col gap-4 md:flex-row w-full justify-between">
                     <div className="flex flex-col gap-[9px]">
                       <label
@@ -309,7 +308,7 @@ const Checkout = ({
                          bg-white py-[17px] pl-6 md:w-[309px] outline-none `}
                       />
                     </div>
-                    {/* City */}
+                   
                     <div className="flex flex-col gap-[9px]">
                       <label
                         className={`${

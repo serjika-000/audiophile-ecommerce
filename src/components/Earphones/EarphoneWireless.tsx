@@ -28,7 +28,7 @@ interface Props {
 
 const EarphoneWireless = ({
   setActiveMenuRoute,
-  // productAmount,
+ 
   YX1Amount,
   setYX1Amount,
   setaddToCart,
@@ -73,7 +73,7 @@ const EarphoneWireless = ({
               cancellation feature.
             </p>
           </div>
-          {/* Price and add to cart */}
+          
           <div className="flex flex-col gap-8 mt-6">
             <h4 className="text-lg font-bold tracking-[1.3px] text-black">
               $ 599
@@ -114,7 +114,7 @@ const EarphoneWireless = ({
           </div>
         </div>
       </div>
-      {/* Features and in the box */}
+     
       <div className="flex flex-col gap-y-[88px] lg:flex-row lg:w-full mt-[88px] lg:gap-[125px]">
         {/* Features */}
         <div className="">
