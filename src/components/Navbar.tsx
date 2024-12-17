@@ -34,7 +34,7 @@ const Navbar = ({
   addToCart,
   cartOverlay,
   setCartOverlay,
-  // checkoutRoute,
+ 
   setCheckoutRoute,
 }: Props) => {
   return (
@@ -60,7 +60,7 @@ const Navbar = ({
               className="lg:hidden cursor-pointer z-[100]"
             />
           )}
-          {/* MobileMenu */}
+          
           {mobileMenu ? (
             <div className="absolute z-[100] top-0 left-0 right-0 bg-black w-full h-screen lg:hidden">
               <img

@@ -39,7 +39,7 @@ const Summary = ({
         summary
       </h1>
       <>
-        {/* XX99MARKII */}
+        
         {XX99MarkIIAmout > 0 ? (
           <div className="flex flex-row justify-between items-center mt-8 lg:w-[350px]">
             <div className="flex flex-row gap-4 items-center">
@@ -58,7 +58,7 @@ const Summary = ({
             </span>
           </div>
         ) : null}
-        {/* XX99MARKI */}
+      
         {XX99MarkIAmout > 0 ? (
           <div className="flex flex-row justify-between items-center mt-8 lg:w-[350px]">
             <div className="flex flex-row gap-4 items-center">
@@ -77,7 +77,7 @@ const Summary = ({
             </span>
           </div>
         ) : null}
-        {/* XX59MK1 */}
+       
         {XX59MarkIAmout > 0 ? (
           <div className="flex flex-row justify-between items-center mt-8 lg:w-[350px]">
             <div className="flex flex-row gap-4 items-center">
@@ -96,7 +96,7 @@ const Summary = ({
             </span>
           </div>
         ) : null}
-        {/* ZX9 */}
+       
         {ZX9Amount > 0 ? (
           <div className="flex flex-row justify-between items-center mt-8 lg:w-[350px]">
             <div className="flex flex-row gap-4 items-center">
@@ -111,7 +111,7 @@ const Summary = ({
             </span>
           </div>
         ) : null}
-        {/* ZX7 */}
+        
         {ZX7Amount > 0 ? (
           <div className="flex flex-row justify-between items-center mt-8 lg:w-[350px]">
             <div className="flex flex-row gap-4 items-center">
@@ -126,7 +126,7 @@ const Summary = ({
             </span>
           </div>
         ) : null}
-        {/* YX1Amount */}
+    
         {YX1Amount > 0 ? (
           <div className="flex flex-row justify-between items-center mt-8 lg:w-[350px]">
             <div className="flex flex-row gap-4 items-center">
@@ -141,7 +141,7 @@ const Summary = ({
             </span>
           </div>
         ) : null}
-        {/* Total costs */}
+   
         <div className="w-full mt-8 gap-2 flex flex-col">
           <div className="flex flex-row items-center justify-between">
             <h1 className="text-black text-[15px] font-medium opacity-50 leading-[25px]">

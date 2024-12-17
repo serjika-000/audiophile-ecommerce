@@ -14,7 +14,7 @@ const SpeakersProduct = () => {
   };
   return (
     <div className="px-6 md:px-10 flex flex-col gap-y-[120px] mb-[120px] lg:mb-[155px] pt-16 lg:pt-[160px] lg:max-w-[1110px] mx-auto lg:px-0">
-      {/* First Second */}
+   
       <div className="text-center lg:text-start items-center flex flex-col lg:flex-row mx-auto lg:gap-x-[120px]">
         <img
           src={ZX9SpeakerMobile}
@@ -55,7 +55,7 @@ const SpeakersProduct = () => {
           </Link>
         </div>
       </div>
-      {/* Second Product */}
+   
       <div className="text-center lg:text-start items-center flex flex-col lg:flex-row-reverse lg:gap-x-[120px]">
         <img
           src={ZX7SpeakerMobile}

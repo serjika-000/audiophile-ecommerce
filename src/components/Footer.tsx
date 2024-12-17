@@ -24,9 +24,9 @@ const Footer = ({ activeMenuRoute, setActiveMenuRoute }: Props) => {
           <div className="flex mx-auto md:mx-0">
             <img src={Logo} alt="Logo" className="w-[143px] border-t-2" />
           </div>
-          {/* Rectangle */}
+       
           <div className="absolute top-[0.5px] left-0 right-0 w-[101px] h-1 bg-orange mx-auto md:mx-0 md:left-[40px]"></div>
-          {/* MenuItems */}
+         
           <div className="" onClick={handleLinkClick}>
             <ul className="text-white flex flex-col md:flex-row items-center md:items-stretch gap-4">
               {menuListArray.map((item, index) => {
@@ -47,7 +47,7 @@ const Footer = ({ activeMenuRoute, setActiveMenuRoute }: Props) => {
             </ul>
           </div>
         </div>
-        {/* TextParagraph */}
+       
         <div className=" text-white text-[15px] font-normal leading-[26px] opacity-50 gap-y-8 mx-auto text-center lg:mx-0 lg:text-left md:text-left">
           <p className="lg:w-[540px]">
             Audiophile is an all in one stop to fulfill your audio needs. We're
@@ -60,7 +60,7 @@ const Footer = ({ activeMenuRoute, setActiveMenuRoute }: Props) => {
           <h4 className="text-white text-[15px] font-normal leading-[26px] opacity-50 mb-8 md:mb-0 text-center md:text-left">
             Copyright 2021. All Rights Reserved
           </h4>
-          {/* Icons */}
+          
           <div className="flex flex-row gap-4 items-center mx-auto md:mx-0 ">
             <img src={Facebook} alt="Facebook" className="cursor-pointer" />
             <img src={Instagram} alt="Instagram" className="cursor-pointer" />

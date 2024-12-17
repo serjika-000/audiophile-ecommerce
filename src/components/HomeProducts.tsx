@@ -22,7 +22,7 @@ const HomeProducts = ({ setActiveMenuRoute }: Props) => {
 
   return (
     <div className="p-6 space-y-6 flex flex-col mx-auto justify-center items-center">
-      {/* First Speaker Product */}
+     
       <div className="relative w-[327px] h-[600px] md:w-[689px] md:h-[720px] lg:w-[1110px] lg:h-[560px] flex flex-col lg:flex-row lg:justify-center lg:items-center rounded-lg bg-orange">
         <div className="relative flex mx-auto items-center justify-center mt-14 lg:mt-[110px]">
           <img
@@ -60,7 +60,7 @@ const HomeProducts = ({ setActiveMenuRoute }: Props) => {
           </Link>
         </div>
       </div>
-      {/* Second Speaker Product */}
+      
       <div className="relative w-[327px] h-[320px] md:w-[689px] md:h-[320px] lg:w-[1110px]  rounded-lg">
         <img
           src={SecondSpeaker}
@@ -95,7 +95,7 @@ const HomeProducts = ({ setActiveMenuRoute }: Props) => {
           </Link>
         </div>
       </div>
-      {/* Earphones */}
+      
       <div className="flex flex-col md:flex-row md:gap-x-4 md:items-center mx-auto space-y-6 md:space-y-0">
         <div className="">
           <img

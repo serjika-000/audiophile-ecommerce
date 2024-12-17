@@ -5,7 +5,7 @@ import ZX9 from "../images/cart/image-zx9-speaker.jpg";
 import ZX7 from "../images/cart/image-zx7-speaker.jpg";
 import YX1 from "../images/cart/image-yx1-earphones.jpg";
 import { Link } from "react-router-dom";
-// import { useState } from "react";
+
 
 interface Props {
   cartOverlay: boolean;
@@ -95,7 +95,7 @@ const CartOverlay = ({
             Remove all
           </h3>
         </div>
-        {/* Products */}
+        
         {XX99MarkIIAmout > 0 && addToCart === true ? (
           <div className="flex flex-row mt-8 w-full justify-between">
             <div className="flex flex-row gap-4">
@@ -140,7 +140,7 @@ const CartOverlay = ({
             </div>
           </div>
         ) : null}
-        {/* Product2 */}
+        
         {XX99MarkIAmout > 0 && addToCart === true ? (
           <div className="flex flex-row mt-8 w-full justify-between">
             <div className="flex flex-row gap-4">
@@ -185,7 +185,7 @@ const CartOverlay = ({
             </div>
           </div>
         ) : null}
-        {/* Product3 */}
+        
         {XX59MarkIAmout > 0 && addToCart === true ? (
           <div className="flex flex-row mt-8 w-full justify-between">
             <div className="flex flex-row gap-4">
@@ -269,7 +269,7 @@ const CartOverlay = ({
             </div>
           </div>
         ) : null}
-        {/* Product5 */}
+       
         {ZX7Amount > 0 && addToCart === true ? (
           <div className="flex flex-row mt-8 w-full justify-between">
             <div className="flex flex-row gap-4">
@@ -308,7 +308,7 @@ const CartOverlay = ({
             </div>
           </div>
         ) : null}
-        {/* Product7 */}
+       
         {YX1Amount > 0 && addToCart === true ? (
           <div className="flex flex-row mt-8 w-full justify-between">
             <div className="flex flex-row gap-4">

@@ -15,7 +15,7 @@ const HomeHero = ({ setActiveMenuRoute }: Props) => {
   };
   return (
     <div className="bg-black">
-      {/* <motion.div > */}
+     
       <div className="lg:max-w-[1440px] lg:mx-auto bg-black flex flex-row justify-between lg:px-[165px]">
         <div
           className="bg lg:bg-none w-full py-[108px] flex lg:flex-row lg:w-full justify-center lg:justify-between 
@@ -69,7 +69,7 @@ const HomeHero = ({ setActiveMenuRoute }: Props) => {
           </motion.div>
         </div>
       </div>
-      {/* </motion.div> */}
+     
     </div>
   );
 };

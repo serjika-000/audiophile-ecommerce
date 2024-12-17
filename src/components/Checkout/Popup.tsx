@@ -32,9 +32,7 @@ const Popup = ({
   grandTotal,
 }: Props) => {
   const handleBackToHomeClick = () => {
-    // Refresh the page
     window.location.reload();
-    // Navigate to the home route
   };
   return (
     <>
@@ -78,7 +76,7 @@ const Popup = ({
                     <div className="w-full h-[1px] bg-black text-black opacity-[0.08] mt-3"></div>
                   </>
                 ) : null}
-                {/* Product2 */}
+                
                 {XX99MarkIAmout > 0 ? (
                   <>
                     <div className="flex flex-row justify-between items-center">
@@ -102,7 +100,7 @@ const Popup = ({
                     <div className="w-full h-[1px] bg-black text-black opacity-[0.08] mt-3"></div>
                   </>
                 ) : null}
-                {/* Product3 */}
+              
                 {XX59MarkIAmout > 0 ? (
                   <>
                     <div className="flex flex-row justify-between items-center">
@@ -126,7 +124,7 @@ const Popup = ({
                     <div className="w-full h-[1px] bg-black text-black opacity-[0.08] mt-3"></div>
                   </>
                 ) : null}
-                {/* Product4 */}
+              
                 {ZX9Amount > 0 ? (
                   <>
                     <div className="flex flex-row justify-between items-center">
@@ -150,7 +148,7 @@ const Popup = ({
                     <div className="w-full h-[1px] bg-black text-black opacity-[0.08] mt-3"></div>
                   </>
                 ) : null}
-                {/* Product5 */}
+                
                 {ZX7Amount > 0 ? (
                   <>
                     <div className="flex flex-row justify-between items-center">
@@ -174,7 +172,7 @@ const Popup = ({
                     <div className="w-full h-[1px] bg-black text-black opacity-[0.08] mt-3"></div>
                   </>
                 ) : null}
-                {/* Product 6 */}
+                
                 {YX1Amount > 0 ? (
                   <>
                     <div className="flex flex-row justify-between items-center">

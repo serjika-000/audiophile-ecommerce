@@ -29,8 +29,6 @@ interface Props {
 
 const HeadphonesSecondProduct = ({
   setActiveMenuRoute,
-  // productAmount,
-  // setProductAmount,
   setAddToCart,
   XX99MarkIAmout,
   setXX99MarkIAmout,
@@ -83,7 +81,7 @@ const HeadphonesSecondProduct = ({
               the go.
             </p>
           </div>
-          {/* Price and add to cart */}
+          
           <div className="flex flex-col gap-8 mt-6">
             <h4 className="text-lg font-bold tracking-[1.3px] text-black">
               $ 1,750
@@ -126,7 +124,7 @@ const HeadphonesSecondProduct = ({
           </div>
         </div>
       </div>
-      {/* Features and in the box */}
+      
       <div className="flex flex-col gap-y-[88px] lg:flex-row lg:w-full mt-[88px] lg:gap-[125px]">
         {/* Features */}
         <div className="">
@@ -147,7 +145,7 @@ const HeadphonesSecondProduct = ({
             specially tuned cable is included with a balanced gold connector.
           </p>
         </div>
-        {/* In the box */}
+      
         <div className="flex flex-col md:flex-row lg:flex-col lg:justify-normal md:justify-between">
           <h1 className="text-black text-2xl md:text-[36px] font-bold leading-9 tracking-[0.8px] md:tracking-[1.1px] mb-6 uppercase">
             in the box
@@ -188,7 +186,7 @@ const HeadphonesSecondProduct = ({
           </div>
         </div>
       </div>
-      {/* Three Image box */}
+     
       <div className="mt-[88px] lg:mt-[120px] flex flex-col gap-6 md:flex-row">
         <div className="flex flex-col gap-6">
           <img
@@ -223,12 +221,12 @@ const HeadphonesSecondProduct = ({
           className="rounded-xl w-full max-w-[600px] object-cover hidden md:flex lg:flex"
         />
       </div>
-      {/* you may also like */}
+      
       <div className="my-[120px] mb-[100px] md:mb-[100px] lg:mb-[300px]">
         <h1 className="text-black text-2xl font-bold leading-9 uppercase text-center mb-10">
           you may also like
         </h1>
-        {/* products */}
+        
         <div className="flex flex-col md:flex-row md:mx-auto md:justify-center gap-[56px]">
           <div className="flex flex-col gap-8 justify-center items-center">
             <img

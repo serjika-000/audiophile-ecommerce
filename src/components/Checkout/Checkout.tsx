@@ -86,10 +86,10 @@ const Checkout = ({
       !values.city ||
       !values.country
     ) {
-      // If any field is missing, do not show the popup
+      
       setSubmitting(false);
     } else {
-      // If all fields are filled correctly, show the popup
+      
       setPopup(true);
       setSubmitting(false);
     }
@@ -124,7 +124,7 @@ const Checkout = ({
     shipping * ZX7Amount +
     shipping * YX1Amount;
 
-  // Calculate VAT based on quantities
+  
   const vatCost =
     vat * XX99MarkIIAmout +
     vat * XX99MarkIAmout +
@@ -136,7 +136,7 @@ const Checkout = ({
   const grandTotal = shippingCost + vatCost + totalCost;
   console.log("ship", shipping, "vat", vat, "total", totalCost);
 
-  // console.log(grandTotal);
+ 
 
   return (
     <Formik
@@ -167,9 +167,9 @@ const Checkout = ({
                     Billing details
                   </p>
                 </div>
-                {/* Form */}
+                
                 <div className="mt-4 flex flex-col space-y-6">
-                  {/* Name */}
+                 
                   <div className="flex flex-col gap-4 md:flex-row w-full justify-between">
                     <div className="flex flex-col gap-[9px] relative">
                       <label
@@ -196,7 +196,7 @@ const Checkout = ({
                         } rounded-lg border-[#CFCFCF] border-2 bg-white py-[17px] pl-6 md:w-[309px] outline-none`}
                       />
                     </div>
-                    {/* Email */}
+                 
                     <div className="flex flex-col gap-[9px] relative">
                       <label
                         className={`${
@@ -223,7 +223,7 @@ const Checkout = ({
                       />
                     </div>
                   </div>
-                  {/* Phone Numbr */}
+                  
                   <div className="flex flex-col gap-[9px] relative">
                     <label
                       className={`${
@@ -250,11 +250,11 @@ const Checkout = ({
                          bg-white py-[17px] pl-6 md:w-[309px] outline-none `}
                     />
                   </div>
-                  {/* Shipping Info */}
+               
                   <h1 className="text-orange text-[13px] font-bold leading-[25px] tracking-[0.9px] uppercase">
                     shipping info
                   </h1>
-                  {/* Your Address */}
+                 
                   <div className="flex flex-col gap-[9px]">
                     <label
                       className={`${
@@ -281,7 +281,7 @@ const Checkout = ({
                          bg-white py-[17px] pl-6 md:w-[309px] outline-none `}
                     />
                   </div>
-                  {/* ZIP CODE */}
+                  
                   <div className="flex flex-col gap-4 md:flex-row w-full justify-between">
                     <div className="flex flex-col gap-[9px]">
                       <label
@@ -309,7 +309,7 @@ const Checkout = ({
                          bg-white py-[17px] pl-6 md:w-[309px] outline-none `}
                       />
                     </div>
-                    {/* City */}
+                    
                     <div className="flex flex-col gap-[9px]">
                       <label
                         className={`${
@@ -337,7 +337,7 @@ const Checkout = ({
                       />
                     </div>
                   </div>
-                  {/* Country */}
+                 
                   <div className="flex flex-col gap-[9px]">
                     <label
                       className={`${
@@ -364,7 +364,7 @@ const Checkout = ({
                          bg-white py-[17px] pl-6 md:w-[309px] outline-none `}
                     />
                   </div>
-                  {/* payment details */}
+                  
                   <h1 className="text-orange text-[13px] font-bold leading-[25px] tracking-[0.9px] uppercase">
                     payment details
                   </h1>
@@ -372,7 +372,7 @@ const Checkout = ({
                     Payment Method
                   </h4>
                   <div className="flex flex-col gap-4 md:items-end">
-                    {/* First Radio */}
+                   
                     <div className="flex flex-row gap-4 rounded-lg border border-[#CFCFCF] py-[17px] pl-6 w-full md:w-[309px]">
                       <input
                         type="radio"
@@ -383,7 +383,7 @@ const Checkout = ({
                       />
                       <h2>e-Money</h2>
                     </div>
-                    {/* Second Radio */}
+                  
                     <div className="flex flex-row gap-4 rounded-lg border border-[#CFCFCF] py-[17px] pl-6 w-full md:w-[309px]">
                       <input
                         type="radio"
@@ -395,7 +395,7 @@ const Checkout = ({
                       <h2>Cash on Delivery</h2>
                     </div>
                   </div>
-                  {/* Last info */}
+                  
                   <div className="flex flex-col gap-4 md:flex-row w-full md:justify-between">
                     <div className="flex flex-col gap-[9px] md:w-[309px]">
                       <label className="text-black text-[13px] font-bold tracking-[-0.2px]">
@@ -419,7 +419,7 @@ const Checkout = ({
                     </div>
                   </div>
                 </div>
-                {/* </form> */}
+                
               </div>
             </div>
             <div className="flex flex-col mb-[97px]">

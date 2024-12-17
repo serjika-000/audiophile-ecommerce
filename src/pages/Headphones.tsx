@@ -6,7 +6,7 @@ const Headphones = () => {
     <>
       <HeadphonesTitle />
       <HeadphonesProduct />
-      {/* <HomeShop /> */}
+    
     </>
   );
 };
