@@ -28,7 +28,6 @@ const AppRoutes = ({
   setZX7Amount,
   YX1Amount,
   setYX1Amount,
-  addToCart,
   setAddToCart,
   popup,
   setPopup,
