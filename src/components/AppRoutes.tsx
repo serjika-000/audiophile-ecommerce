@@ -28,7 +28,7 @@ const AppRoutes = ({
   setZX7Amount,
   YX1Amount,
   setYX1Amount,
- 
+  addToCart,
   setAddToCart,
   popup,
   setPopup,
@@ -93,7 +93,7 @@ const AppRoutes = ({
             productAmount={productAmount}
             ZX9Amount={ZX9Amount}
             setZX9Amount={setZX9Amount}
-            setAddToCart={setAddToCart}
+            setaddToCart={setAddToCart}
           />
         }
       />
@@ -105,7 +105,7 @@ const AppRoutes = ({
             productAmount={productAmount}
             ZX7Amount={ZX7Amount}
             setZX7Amount={setZX7Amount}
-            setAddToCart={setAddToCart}
+            setaddToCart={setAddToCart}
           />
         }
       />
@@ -118,7 +118,7 @@ const AppRoutes = ({
             productAmount={productAmount}
             YX1Amount={YX1Amount}
             setYX1Amount={setYX1Amount}
-            setAddToCart={setAddToCart}
+            setaddToCart={setAddToCart}
           />
         }
       />
